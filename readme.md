@@ -2,8 +2,8 @@
 
 # 算法列表
 
-  * 标准正态变换 MSC
-  * 多元散射校正 SNV
+  * 标准正态变换 SNV
+  * 多元散射校正 MSC
   * Savitzky-Golay平滑滤波函数 SG
   * 滑动平均滤波 move_avg
   * 一阶差分 D1
@@ -55,7 +55,7 @@ type(X)
 
 ## 3. 数据预处理
 
-### 多元散射校正 MSC
+### 标准正态变换 MSC
 
 ```python
 msc = p.msc(X)
@@ -64,7 +64,7 @@ p.PlotSpectrum(msc, 'msc', 0, 5).show()
 
 <img src="assets/image-20211018212754142.png" alt="image-20211018212754142" style="zoom: 33%;" />
 
-### 标准正态变换 SNV
+### 多元散射校正 SNV
 
 ```python
 snv = p.snv(X)

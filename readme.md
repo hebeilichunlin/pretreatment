@@ -55,7 +55,7 @@ type(X)
 
 ## 3. 数据预处理
 
-### 标准正态变换 MSC
+### 多元散射校正 MSC
 
 ```python
 msc = p.msc(X)
@@ -64,7 +64,7 @@ p.PlotSpectrum(msc, 'msc', 0, 5).show()
 
 <img src="assets/image-20211018212754142.png" alt="image-20211018212754142" style="zoom: 33%;" />
 
-### 多元散射校正 SNV
+### 标准正态变换 SNV
 
 ```python
 snv = p.snv(X)
